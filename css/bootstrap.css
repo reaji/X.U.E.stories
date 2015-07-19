@@ -1579,7 +1579,7 @@ pre code {
   border-radius: 0;
 }
 .pre-scrollable {
-  max-height: 600px;
+  max-height: 700px;
   overflow-y: scroll;
 
 }
@@ -5931,6 +5931,17 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
+
+.intro {
+  position: fixed;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  outline: 0;
+}
+
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
        -o-transition:      -o-transform .3s ease-out;
@@ -5997,6 +6008,7 @@ button.close {
   line-height: 1.42857143;
 }
 .modal-body {
+  top:250px;
   position: relative;
   padding: 15px;
 }
